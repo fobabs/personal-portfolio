@@ -34,12 +34,38 @@ a {
   text-decoration: none;
   color: #000;
 }
-main {
-  margin-top: 50px;
-}
 #welcome-section {
+  display: block;
   top: 0;
-  background-color: aqua;
-  min-height: 50vh;
-  padding-top: 45vh;
+  background-color: rgb(26, 31, 29);
+  min-height: 60vh;
+  padding-top: 50vh;
+}
+#welcome-section h1, #welcome-section p {
+  text-align: center;
+  color: #fff;
+}
+#projects header {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#project-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+figure {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+figure img {
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
